@@ -1,0 +1,17 @@
+{
+  "name": "users",
+  "version": "0.0.0",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "setup-db": "psql test -f schema.sql"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
